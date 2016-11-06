@@ -50,6 +50,6 @@ ul.topnav li.icon {display: none;}
 }
 
 .backgroundimg-1 {
-	background-image: url("images\background\computer_desk_coffee.jpg");
+	background-image: url("computer_desk_coffee.jpg");
 	min-height: 400px;
 }
