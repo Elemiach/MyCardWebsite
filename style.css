@@ -25,7 +25,7 @@ ul.topnav li.icon {display: none;}
 
 @media (max-width:800px) {
 	body { background-color: red; }
-	ul.topnav li:not(:first-child) {display: none;}
+	ul.topnav li {display: none;}
 	ul.topnav li.icon {
 		float: right;
 		display: inline-block;
