@@ -48,12 +48,12 @@ ul.topnav li.icon {display: none;}
 }
 
 .backgroundimg-2 {
-	background-image: url("computer_keyboard.jpg");
+	background-image: url("images/background/computer_keyboard.jpg");
 	min-height: 400px;
 }
 
 .backgroundimg-3 {
-	background-image: url("apple_computer_mouse.jpg");
+	background-image: url("images/background/apple_computer_mouse.jpg");
 	min-height: 400px;
 }
 
