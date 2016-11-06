@@ -49,8 +49,34 @@ ul.topnav li div.menuButton {
 
 div.section {
 	padding: 100px;
-	padding-top: 250px;
-	padding-bottom: 250px;
+	/*padding-top: 250px;
+	padding-bottom: 250px;*/
+}
+
+div.clearFloat {
+	/*content: "";*/
+	display: table;
+	clear: both;
+}
+
+div.skill {
+	border: 1px;
+	border-style: solid;
+	border-color: gray;
+	border-radius: 10px;
+	float:left;
+	margin: 50px;
+	width: 300px;
+}
+
+div.skill p {
+	text-align: center;
+}
+
+div.skill img {
+	width: 200px;
+	display: block;
+   margin: auto auto;
 }
 
 span.mailContent {
