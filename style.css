@@ -79,8 +79,11 @@ div.section {
 
 @media (max-width:800px) {
 	/*body { background-color: red; }*/
+	ul.topnav ul {width: 50px;}
 	ul.topnav li:not(:first-child) {display: none;}
 	ul.topnav li div.menuButton {
+		padding: 16px 16px;
+		margin: 0 0;
 		float: left;
 		display: inline-block;
 	}
@@ -89,8 +92,8 @@ div.section {
 @media (max-width:800px) {
   ul.topnav.responsive {position: fixed;}
   ul.topnav.responsive li div.menuButton {
-	padding: 16px 16px;
-	margin: 0 0;
+	/*padding: 16px 16px;
+	margin: 0 0;*/
    position: absolute;
    left: 0;
    top: 0;
