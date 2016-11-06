@@ -54,7 +54,11 @@ div.section {
 }
 
 span.mailContent {
-	margin-left: 20px;
+	margin-left: 30px;
+}
+
+span.phoneContent {
+	margin-left: 30px;
 }
 
 .backgroundimg-1, .backgroundimg-2, .backgroundimg-3 {
