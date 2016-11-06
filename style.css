@@ -92,8 +92,8 @@ div.section {
 @media (max-width:800px) {
   ul.topnav.responsive {position: fixed;}
   ul.topnav.responsive li div.menuButton {
-	/*padding: 16px 16px;
-	margin: 0 0;*/
+	padding: 16px 16px;
+	margin: 0 0;
    position: absolute;
    left: 0;
    top: 0;
