@@ -49,6 +49,15 @@ ul.topnav li.icon {display: none;}
   }
 }
 
+.backgroundimg-1, .backgroundimg-2 {
+	position: relative;
+	/*opacity: 0.85;*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .backgroundimg-1 {
 	background-image: url("computer_desk_coffee.jpg");
 	min-height: 400px;
