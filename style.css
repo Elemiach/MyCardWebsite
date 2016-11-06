@@ -23,7 +23,7 @@ ul.topnav li a:hover {background-color: #555;}
 
 ul.topnav li.icon {display: none;}
 
-@media screen and (max-width: 680px) {
+@media all and (max-width: 680px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
@@ -31,7 +31,7 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-@media screen and (max-width: 680px) {
+@media all and (max-width: 680px) {
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
