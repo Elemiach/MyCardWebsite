@@ -48,3 +48,8 @@ ul.topnav li.icon {display: none;}
     text-align: left;
   }
 }
+
+.backgroundimg-1 {
+	background-image: url("computer_desk_coffee.jpg");
+	min-height: 400px;
+}
