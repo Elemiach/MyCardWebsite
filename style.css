@@ -31,6 +31,8 @@ ul.topnav li.icon {display: none;}
 
 div.section {
 	padding: 100px;
+	padding-top: 250px;
+	padding-bottom: 250px;
 }
 
 .backgroundimg-1, .backgroundimg-2, .backgroundimg-3 {
