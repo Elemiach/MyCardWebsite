@@ -9,7 +9,10 @@ ul.topnav {
   background-color: #333;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+	float: left;
+	z-index:9999;
+}
 
 ul.topnav li a {
   display: inline-block;
@@ -63,6 +66,7 @@ ul.topnav li.icon {display: none;}
 .backgroundimg-1 {
 	background-image: url("computer_desk_coffee.jpg");
 	min-height: 400px;
+	margi
 	
 }.backgroundimg-2 {
 	background-image: url("computer_keyboard.jpg");
