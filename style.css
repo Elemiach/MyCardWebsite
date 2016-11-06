@@ -54,7 +54,7 @@ ul.topnav li.icon {display: none;}
 	body { background-color: red; }
 	ul.topnav li {display: none;}
 	ul.topnav li.icon {
-		float: right;
+		float: left;
 		display: inline-block;
 	}
 	.backgroundimg-1 {
@@ -66,7 +66,7 @@ ul.topnav li.icon {display: none;}
   ul.topnav.responsive {position: fixed;}
   ul.topnav.responsive li.icon {
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
   }
   ul.topnav.responsive li {
@@ -75,6 +75,6 @@ ul.topnav li.icon {display: none;}
   }
   ul.topnav.responsive li a {
     display: block;
-    text-align: left;
+    /*text-align: left;*/
   }
 }
