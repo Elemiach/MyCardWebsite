@@ -31,7 +31,7 @@ ul.topnav li.icon {display: none;}
 
 
 
-.backgroundimg-1, .backgroundimg-2 {
+.backgroundimg-1, .backgroundimg-2, .backgroundimg-3 {
 	position: relative;
 	opacity: 0.85;
 	background-attachment: fixed;
@@ -45,10 +45,19 @@ ul.topnav li.icon {display: none;}
 	min-height: 400px;
 	margin-top: 50px;
 	
-}.backgroundimg-2 {
+}
+
+.backgroundimg-2 {
 	background-image: url("computer_keyboard.jpg");
 	min-height: 400px;
 }
+
+.backgroundimg-3 {
+	background-image: url("apple_computer_mouse.jpg");
+	min-height: 400px;
+}
+
+
 
 @media (max-width:800px) {
 	body { background-color: red; }
