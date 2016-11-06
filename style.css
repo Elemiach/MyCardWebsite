@@ -29,31 +29,7 @@ ul.topnav li a:hover {background-color: #555;}
 
 ul.topnav li.icon {display: none;}
 
-@media (max-width:800px) {
-	body { background-color: red; }
-	ul.topnav li {display: none;}
-	ul.topnav li.icon {
-		float: right;
-		display: inline-block;
-	}
-}
 
-@media screen and (max-width:800px) {
-  ul.topnav.responsive {position: fixed;}
-  ul.topnav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.topnav.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
-}
 
 .backgroundimg-1, .backgroundimg-2 {
 	position: relative;
@@ -72,4 +48,34 @@ ul.topnav li.icon {display: none;}
 }.backgroundimg-2 {
 	background-image: url("computer_keyboard.jpg");
 	min-height: 400px;
+}
+
+@media (max-width:800px) {
+	body { background-color: red; }
+	ul.topnav li {display: none;}
+	ul.topnav li.icon {
+		float: right;
+		display: inline-block;
+	}
+	.backgroundimg-1, .backgroundimg-2 {
+		min-height: 200px;
+		max-height: 250px;
+	}
+}
+
+@media (max-width:800px) {
+  ul.topnav.responsive {position: fixed;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
 }
