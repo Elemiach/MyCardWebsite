@@ -94,6 +94,7 @@ div.section {
   ul.topnav.responsive li {
     float: none;
     display: inline;
+	 width: auto;
   }
   ul.topnav.responsive li a {
     display: block;
