@@ -27,7 +27,7 @@ ul.topnav li a {
 
 ul.topnav li a:hover {background-color: #555;}
 
-ul.topnav li.icon {display: none;}
+ul.topnav li div.menuButton {display: none;}
 
 div.section {
 	padding: 100px;
@@ -66,18 +66,15 @@ div.section {
 @media (max-width:800px) {
 	body { background-color: red; }
 	ul.topnav li {display: none;}
-	ul.topnav li.icon {
+	ul.topnav li div.menuButton {
 		float: left;
 		display: inline-block;
-	}
-	.backgroundimg-1 {
-		min-height: 200px;
 	}
 }
 
 @media (max-width:800px) {
   ul.topnav.responsive {position: fixed;}
-  ul.topnav.responsive li.icon {
+  ul.topnav.responsive li div.menuButton {
     position: absolute;
     left: 0;
     top: 0;
