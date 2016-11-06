@@ -6,6 +6,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  width: 100%;
   z-index:9999;
   background-color: #333;
 }
