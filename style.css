@@ -53,6 +53,10 @@ div.section {
 	padding-bottom: 250px;
 }
 
+.mail p {
+	text-indent: 20px;
+}
+
 .backgroundimg-1, .backgroundimg-2, .backgroundimg-3 {
 	position: relative;
 	opacity: 0.85;
