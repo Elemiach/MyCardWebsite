@@ -52,4 +52,8 @@ ul.topnav li.icon {display: none;}
 .backgroundimg-1 {
 	background-image: url("computer_desk_coffee.jpg");
 	min-height: 400px;
+	
+}.backgroundimg-2 {
+	background-image: url("computer_keyboard.jpg");
+	min-height: 400px;
 }
