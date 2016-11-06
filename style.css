@@ -29,7 +29,9 @@ ul.topnav li a:hover {background-color: #555;}
 
 ul.topnav li.icon {display: none;}
 
-
+div.section {
+	padding: 100px;
+}
 
 .backgroundimg-1, .backgroundimg-2, .backgroundimg-3 {
 	position: relative;
