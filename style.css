@@ -32,6 +32,7 @@ ul.topnav li.icon {display: none;}
 }
 
 @media only screen and (max-width:680px) {
+  background-color: green;
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
