@@ -77,7 +77,7 @@ div.section {
 
 @media (max-width:800px) {
 	/*body { background-color: red; }*/
-	ul.topnav li {display: none;}
+	/*ul.topnav li {display: none;}*/
 	ul.topnav li div.menuButton {
 		float: left;
 		display: inline-block;
