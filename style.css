@@ -49,6 +49,10 @@ div.section {
 	padding-bottom: 250px;
 }
 
+.mailIcon {
+	background-image: url("images/icons/ic_email_black_24px.svg");
+}
+
 .backgroundimg-1, .backgroundimg-2, .backgroundimg-3 {
 	position: relative;
 	opacity: 0.85;
