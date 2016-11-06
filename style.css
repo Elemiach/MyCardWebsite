@@ -91,6 +91,11 @@ span.phoneContent {
 
 @media (max-width:800px) {
 	/*body { background-color: red; }*/
+	div.section {
+		padding: 40px;
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
 	ul.topnav ul {width: 50px;}
 	ul.topnav li:not(:first-child) {display: none;}
 	ul.topnav li div.menuButton {
