@@ -1,7 +1,7 @@
 body {margin:0;}
-div div span {
+/*div div span {
 	background-color: red;
-}
+}*/
 
 ul.topnav {
   list-style-type: none;
@@ -53,8 +53,8 @@ div.section {
 	padding-bottom: 250px;
 }
 
-.mailContent {
-	text-indent: 20px;
+span.mailContent {
+	margin-left: 20px;
 }
 
 .backgroundimg-1, .backgroundimg-2, .backgroundimg-3 {
