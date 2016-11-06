@@ -24,7 +24,7 @@ ul.topnav li a:hover {background-color: #555;}
 ul.topnav li.icon {display: none;}
 
 @media only screen and (max-width:680px) {
-	background-color: green;
+	body { background-color: green; }
 	ul.topnav li:not(:first-child) {display: none;}
 	ul.topnav li.icon {
 		float: right;
