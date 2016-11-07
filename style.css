@@ -1,4 +1,7 @@
-body {margin:0;}
+html, body {
+	margin:0;
+	width: 100%;
+}
 /*div div span {
 	background-color: red;
 }*/
@@ -66,7 +69,7 @@ div.skill {
 	border-color: gray;
 	border-radius: 10px;
 	float:left;
-	margin: 50px;
+	margin: auto;
 	/*width: 200px;*/
 }
 
