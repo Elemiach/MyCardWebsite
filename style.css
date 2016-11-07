@@ -1,4 +1,4 @@
-html, body {
+body {
 	margin:0;
 	width: 100%;
 }
@@ -52,32 +52,44 @@ ul.topnav li div.menuButton {
 
 div.section {
 	padding: 100px;
-	width: 100%;
-	/*padding-top: 250px;
-	padding-bottom: 250px;*/
+	padding-top: 250px;
+	padding-bottom: 250px;
 }
 
-div.clearFloat {
-	/*content: "";*/
-	display: table;
-	clear: both;
+.technologyBoxes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+	align-items: flex-start;
 }
 
 div.skill {
+	margin: 50px;
+   width: 300px;
+   height: 250px;
+   flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 0;
 	border: 1px;
 	border-style: solid;
 	border-color: gray;
 	border-radius: 10px;
-	float:left;
-	margin: auto;
-	/*width: 200px;*/
 }
+
+/*div.clearFloat {
+	content: "";
+	display: table;
+	clear: both;
+}*/
+
 
 div.skill p {
 	text-align: center;
 }
 
-div.skill img {
+.skill img {
 	width: 150px;
 	display: block;
    margin: auto auto;
