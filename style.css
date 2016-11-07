@@ -155,6 +155,7 @@ span.phoneContent {
 	background-size: cover;
 	background-image: url("images/background/crowd_background.png");
 	min-height: 600px;
+	/*<p>Website made on keyboard by...</p>*/
 }
 
 @media (max-width:800px) {
