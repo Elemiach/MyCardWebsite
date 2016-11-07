@@ -50,10 +50,29 @@ ul.topnav li div.menuButton {
 	margin-top: 6px;
 }
 
-div.section {
+.section {
+	position: relative;
+	overflow: hidden;
 	padding: 100px;
 	padding-top: 250px;
 	padding-bottom: 250px;
+}
+
+.section:before, .footer:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 0.2;
+	background-image: url("images/background/black-triangle-background.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: cover;
+	
 }
 
 .technologyBoxes {
@@ -66,7 +85,7 @@ div.section {
 }
 
 div.skill {
-	margin: 50px;
+	margin: 80px;
    width: 300px;
    height: 250px;
    flex-grow: 0;
@@ -75,7 +94,7 @@ div.skill {
 	border: 1px;
 	border-style: solid;
 	border-color: gray;
-	border-radius: 10px;
+	border-radius: 2px;
 }
 
 /*div.clearFloat {
@@ -92,7 +111,6 @@ div.skill p {
 .skill img {
 	width: 150px;
 	display: block;
-   margin: auto auto;
 }
 
 span.mailContent {
@@ -129,10 +147,17 @@ span.phoneContent {
 	min-height: 400px;
 }
 
-
+.footer {
+	position: relative;
+	bottom: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("images/background/crowd_background.png");
+	min-height: 600px;
+}
 
 @media (max-width:800px) {
-	/*body { background-color: red; }*/
 	div.section {
 		padding: 40px;
 		padding-top: 150px;
