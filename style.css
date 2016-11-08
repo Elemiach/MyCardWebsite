@@ -132,6 +132,24 @@ div.skill {
    flex-basis: 200px;
 }
 
+.contactBoxes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.mail, .phone {
+   flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 0;
+	display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 /*div.clearFloat {
 	content: "";
 	display: table;
@@ -148,11 +166,7 @@ div.skill p {
 	display: block;
 }
 
-span.mailContent {
-	margin-left: 30px;
-}
-
-span.phoneContent {
+.mailContent, .phoneContent {
 	margin-left: 30px;
 }
 
