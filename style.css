@@ -91,6 +91,15 @@ ul.topnav li div.menuButton {
 	align-items: flex-start;
 }
 
+.aboutMeBoxes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+
 div.skill {
 	margin: 80px;
    width: 300px;
@@ -102,6 +111,25 @@ div.skill {
 	border-style: solid;
 	border-color: gray;
 	border-radius: 2px;
+}
+
+.flexImg {
+	margin: 80px;
+   flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 0;
+}
+
+.flexImg img {
+	width: 100px;
+}
+
+.flex {
+	font-size: 30px;
+	margin: 100px;
+   flex-grow: 1;
+   flex-shrink: 0;
+   flex-basis: 200px;
 }
 
 /*div.clearFloat {
@@ -139,7 +167,7 @@ span.phoneContent {
 
 .backgroundimg-1 {
 	background-image: url("images/background/computer_desk_coffee.jpg");
-	min-height: 400px;
+	min-height: 600px;
 	margin-top: 45px;
 	
 }
@@ -162,7 +190,16 @@ span.phoneContent {
 	background-size: cover;
 	background-image: url("images/background/green_footer_background.png");
 	min-height: 600px;
+	text:align: bottom;
 	/*<p>Website made on keyboard by...</p>*/
+}
+
+.footerContent {
+	font-size: 20px;
+	color: white;
+	position: absolute;
+   bottom: 70px;
+   left: 40px;
 }
 
 @media (max-width:800px) {
