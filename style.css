@@ -283,4 +283,9 @@ div.skill p {
     display: block;
     /*text-align: left;*/
   }
+  .caption span.border {
+		padding: 10px;
+		font-size: 15px;
+		letter-spacing: 5px;
+	}
 }
