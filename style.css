@@ -259,6 +259,7 @@ div.skill p {
 	}
 	ul.topnav li div.menuButton:hover {background-color: #0288D1;}
 	.caption span.border {
+		padding: 10px;
 		font-size: 25px;
 		letter-spacing: 5px;
 	}
