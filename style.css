@@ -171,6 +171,7 @@ div.skill p {
 }
 
 .mailContent, .phoneContent {
+	font-size: 30px;
 	margin-left: 30px;
 }
 
@@ -189,7 +190,6 @@ div.skill p {
 
 .backgroundimg-1 {
 	background-image: url("images/background/computer_desk_coffee.jpg");
-	/*min-height: 800px;*/
 	min-height: 100%;
 	margin-top: 45px;
 	
@@ -281,7 +281,6 @@ div.skill p {
   }
   ul.topnav.responsive li a {
     display: block;
-    /*text-align: left;*/
   }
   .caption span.border {
 		padding: 10px;
