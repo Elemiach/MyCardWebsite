@@ -260,7 +260,7 @@ div.skill p {
 		float: left;
 		display: inline-block;
 	}
-	ul.topnav li div.menuButton:click {background-color: #0288D1;}
+	ul.topnav li div.menuButton:focus {background-color: #0288D1;}
 	.caption span.border {
 		padding: 10px;
 		font-size: 15px;
