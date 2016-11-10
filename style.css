@@ -260,7 +260,7 @@ div.skill p {
 		float: left;
 		display: inline-block;
 	}
-	ul.topnav li div.menuButton:hover {background-color: #0288D1;}
+	ul.topnav li div.menuButton:active {background-color: #0288D1;}
 	.caption span.border {
 		padding: 10px;
 		font-size: 15px;
@@ -272,7 +272,6 @@ div.skill p {
 	}
 	.mailContent, .phoneContent {
 		font-size: 22px;
-		/*margin-left: 30px;*/
 	}
 	.socialMediaBoxes {
 		flex-direction: column;
