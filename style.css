@@ -102,10 +102,6 @@ div.skill {
    flex-grow: 0;
    flex-shrink: 0;
    flex-basis: 0;
-	/*border: 1px;
-	border-style: solid;
-	border-color: gray;
-	border-radius: 2px;*/
 }
 
 .flexImg {
@@ -145,13 +141,6 @@ div.skill {
    justify-content: center;
 }
 
-/*div.clearFloat {
-	content: "";
-	display: table;
-	clear: both;
-}*/
-
-
 div.skill p {
 	text-align: center;
 }
@@ -177,6 +166,21 @@ div.skill p {
 
 .socialMedia {
 	padding-top: 100px;
+}
+
+.socialMediaBoxes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+   align-content: flex-start;
+   align-items: flex-start;
+}
+
+.socialFlex{
+   flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 0;
 }
 
 .backgroundimg-1, .backgroundimg-2, .backgroundimg-3 {
@@ -232,7 +236,6 @@ div.skill p {
 	background-image: url("images/background/green_footer_background.png");
 	min-height: 600px;
 	text:align: bottom;
-	/*<p>Website made on keyboard by...</p>*/
 }
 
 .footerContent {
@@ -270,6 +273,11 @@ div.skill p {
 	.mailContent, .phoneContent {
 		font-size: 22px;
 		/*margin-left: 30px;*/
+	}
+	.socialMediaBoxes {
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
 	}
 }
 
