@@ -263,6 +263,14 @@ div.skill p {
 		font-size: 15px;
 		letter-spacing: 2px;
 	}
+	#emailIcon, #phoneIcon {
+		height: 24px;
+		width: 24px;
+	}
+	.mailContent, .phoneContent {
+		font-size: 22px;
+		/*margin-left: 30px;*/
+	}
 }
 
 @media (max-width:800px) {
