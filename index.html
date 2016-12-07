@@ -4,6 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
 <ul class="topnav" id="myTopnav">
@@ -25,7 +26,7 @@
 	</div>
 </div>
 <div id="about" class="section aboutMeSection">
-	<div class="aboutMeBoxes">
+	<div class="aboutMeBoxes fadeInOnScroll">
 	<div class="flex studies">
 		I am student of third year of Computer Science at Jagiellonian University
 	</div>
@@ -33,7 +34,7 @@
 		<img src="images/logos/uj_logo.png" alt="uj_logo" border="0">
 	</div>
 	</div>
-	<div class="aboutMeBoxes">
+	<div class="aboutMeBoxes fadeInOnScroll">
 	<div class="flex work">
 		I also work as Junior Software Tester at ABB
 	</div>
@@ -45,8 +46,8 @@
 <div class="backgroundimg-2"></div>
 <div id="skills" class="section technologySection">
 	<!--h2>SKILLS</h2-->
-	<p class="sectionHeader">What I know </p>
-	<div class="technologyBoxes">
+	<p class="sectionHeader fadeInOnScroll">What I know </p>
+	<div class="technologyBoxes fadeInOnScroll">
 	<div class="skill java">
 		<div class="skillImg" style="background-image:url('images/logos/java_logo.png');"></div>
 		<!--p>Java</p-->
@@ -61,9 +62,9 @@
 	</div>
 	</div>
 	<div>
-		<p class="sectionHeader">What I learn</p>
+		<p class="sectionHeader fadeInOnScroll">What I learn</p>
 	</div>
-	<div class="technologyBoxes">
+	<div class="technologyBoxes fadeInOnScroll">
 	<div class="skill html">
 		<div class="skillImg" style="background-image:url('images/logos/html5_logo.png');"></div>
 		<!--p>HTML</p-->
@@ -80,20 +81,20 @@
 </div>
 <div class="backgroundimg-3"> </div>
 <div id="contact" class="section contactSection" style="padding-bottom: 20px">
-	<p class="sectionHeader"> Do not hesitate to contact me on </p>
+	<p class="sectionHeader fadeInOnScroll"> Do not hesitate to contact me on </p>
 	<div class="contactBoxes">
-		<div class="mail">
+		<div class="mail fadeInOnScroll">
 			<img id="emailIcon" src="images/icons/ic_email_black_36dp_1x.png" alt="email icon">
 			<p><span class="mailContent">wwasikadrian@interia.eu</span> </p>
 		</div>
-		<div class="phone">
+		<div class="phone fadeInOnScroll">
 			<img id="phoneIcon" src="images/icons/ic_phone_black_36dp_1x.png" alt="phone icon">
 			<p class="phoneContent">667691357</p>
 		</div>
 	</div>
 	<div class="socialMedia">
-		<p class="sectionHeader">You can also find me on </p>
-		<div class="socialMediaBoxes">
+		<p class="sectionHeader fadeInOnScroll">You can also find me on </p>
+		<div class="socialMediaBoxes fadeInOnScroll">
 			<div class="socialFlex">
 				<a target="_blank" href="https://pl.linkedin.com/in/adrian-wasik"> <img height="48px" src="images/logos/linkedin_logo.png" alt="Zobacz mnie na LinkedIn" border="0"></a>
 			</div>
@@ -114,6 +115,43 @@ function myFunction() {
     } else {
         x.className = "topnav";
     }
+	 $('.bar1').toggleClass('rotatedDown');
+	 $('.bar3').toggleClass('rotatedUp');
+	 $('.bar2').toggleClass('disappear');
+
+}
+
+{
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.fadeInOnScroll').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top;// + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+					 $(this).css({
+						"-webkit-transform":"translate(0px,-200px)",
+						"-ms-transform":"translate(0px,-200px)",
+						"transform":"translate(0px,-200px)"
+					});
+					 
+                $(this).animate({'opacity':'1'}, 7);
+                
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
 }
 </script>
 
